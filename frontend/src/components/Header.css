@@ -1,0 +1,16 @@
+/* Header.css */
+.header-container {
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(to right, #2563eb, #6366f1, #9333ea);
+}
+
+.header-container h1 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0;
+}
