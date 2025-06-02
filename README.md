@@ -1,6 +1,7 @@
 # 🌌 Panel Time Series Forecasting App
 
-A web application that showcases **Panel Time Series Forecasting** using deep learning models. Select from **11 diverse datasets**, forecast future values, and visualize results for each entity with **7 quantiles** displayed in animated and interactive plots.  
+A web application that showcases Panel Time Series Forecasting using an advanced Transformer model—an enhanced version of the Temporal Fusion Transformer (TFT). This model integrates multi-scale series decomposition, segment-wise attention, cross-entity attention, and an adaptive weighting mechanism for improved forecasting performance.
+Select from **11 diverse datasets**, forecast future values, and visualize results for each entity with **7 quantiles** forecasted **30 timesteps ahead**, displayed in animated and interactive plots.  
 Built with **React (Vite)** and powered by **Hugging Face APIs** for model inference.
 
 ---
@@ -17,8 +18,8 @@ Built with **React (Vite)** and powered by **Hugging Face APIs** for model infer
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Vite + React + Plotly.js (for interactive visualizations)
-- **Backend API**: Hugging Face Inference API (for model predictions)
+- **Frontend**: Vite + React + Plotly.js
+- **Backend API**: Hugging Face Inference API
 - **Styling**: CSS
 
 ---
@@ -61,9 +62,6 @@ Built with **React (Vite)** and powered by **Hugging Face APIs** for model infer
     ```bash
     npm run dev
     ```
-
-4. **Open in Browser**:  
-   Visit `http://localhost:5173` to use the app.
 
 ---
 
