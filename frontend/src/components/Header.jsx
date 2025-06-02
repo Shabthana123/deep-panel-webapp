@@ -1,3 +1,9 @@
+import "./Header.css";
+
 export default function Header() {
-  return <h1 className="text-2xl font-bold mb-4">Deep Panel Forecast Demo</h1>;
+  return (
+    <div className="header-container">
+      <h1>Panel Timeseries Forecasting Demo</h1>
+    </div>
+  );
 }
