@@ -1,0 +1,130 @@
+Model,Dataset,MAPE,Pearson Correlation,Spearman Correlation,Standardized MAE,Standardized MSE,Standardized RMSE
+Enhanced TFT,african_GDP,31.6289,0.9775,0.9494,0.1624,0.0647,0.2543
+Enhanced TFT,air_traffic,22.9355,0.9263,0.8165,0.3053,0.1661,0.4076
+Enhanced TFT,Chickenpox,144.8804,0.6328,0.5172,0.4615,0.6115,0.6115
+Enhanced TFT,co2,18.2255,0.9552,0.9539,0.1902,0.0977,0.3126
+Enhanced TFT,covid_confirmed,31.5017,0.8799,0.4585,0.4012,0.4524,0.6726
+Enhanced TFT,covid_death,31.2856,0.9256,0.8569,0.2753,0.2287,0.4782
+Enhanced TFT,covid_recovered,41.3632,0.435,0.4254,0.7442,1.3595,1.166
+Enhanced TFT,electricity,194.9111,0.9864,0.956,0.0272,0.0313,0.1769
+Enhanced TFT,exchange_rate,2.9574,1,0.9816,0.0014,0,0.0022
+Enhanced TFT,sales,35.8943,0.8472,0.8503,0.4452,0.4414,0.6644
+Enhanced TFT,stock,55.1915,0.5934,0.6441,0.7237,1.2462,1.1163
+Enhanced TFT,surface_temperature,4.6854,0.992,0.9917,0.1104,0.0218,0.1476
+TCN_encoder_decoder +TFT,african_GDP,28.2184,0.9759,0.9343,0.1521,0.0539,0.2322
+TCN_encoder_decoder +TFT,air_traffic,48.6141,0.833,0.5815,0.6232,0.6227,0.7891
+TCN_encoder_decoder +TFT,co2,21.0188,0.9473,0.9568,0.2337,0.1868,0.4322
+TCN_encoder_decoder +TFT,covid_confirmed,32.9121,0.8882,0.8441,0.2434,0.1547,0.3933
+TCN_encoder_decoder +TFT,covid_death,57.5726,0.2461,0.3719,0.8548,1.6201,1.2728
+TCN_encoder_decoder +TFT,covid_recovered,41.7293,0.8356,0.2478,0.4878,0.6448,0.803
+TCN_encoder_decoder +TFT,electricity,191.09,0.9848,0.9379,0.0431,0.0564,0.2374
+TCN_encoder_decoder +TFT,exchange_rate,9.9929,1,0.9372,0.0225,0.0018,0.0419
+TCN_encoder_decoder +TFT,sales,34.2409,0.844,0.8481,0.4346,0.3906,0.6249
+TCN_encoder_decoder +TFT,stock,53.7409,0.6101,0.6551,0.6708,1.1075,1.0524
+TCN_encoder_decoder +TFT,surface_temperature,24.5956,0.8495,0.8838,0.5083,0.3815,0.6176
+TFT,african_GDP,28.7728,0.9649,0.9221,0.1885,0.116,0.3406
+TFT,air_traffic,24.314,0.8176,0.7069,0.4242,0.3449,0.5873
+TFT,Chickenpox,189.6567,0.6444,0.55,0.4762,0.5944,0.771
+TFT,co2,19.3546,0.9506,0.9597,0.2087,0.1334,0.3653
+TFT,covid_confirmed,33.9313,0.8777,0.473,0.3813,0.4042,0.6358
+TFT,covid_death,35.6743,0.9099,0.8374,0.3404,0.3095,0.5563
+TFT,covid_recovered,50.4926,0.2667,0.3718,0.7911,1.4605,1.2085
+TFT,electricity,217.4908,0.9832,0.9515,0.0317,0.0416,0.2042
+TFT,exchange_rate,3.9135,0.9999,0.9495,0.0014,0,0.0019
+TFT,sales,37.7496,0.8558,0.8653,0.4657,0.4581,0.6768
+TFT,stock,53.8232,0.6064,0.6494,0.6824,1.1391,1.0673
+TFT,surface_temperature,5.2962,0.9857,0.9861,0.1338,0.0329,0.1816
+TFT + segmentwise attention,african_GDP,27.1588,0.9756,0.9224,0.1668,0.0772,0.2779
+TFT + segmentwise attention,air_traffic,22.1381,0.9054,0.7584,0.323,0.2176,0.4665
+TFT + segmentwise attention,Chickenpox,296.4386,0.5718,0.4987,0.6488,0.8036,0.8964
+TFT + segmentwise attention,co2,23.3504,0.9408,0.9425,0.2533,0.1916,0.4377
+TFT + segmentwise attention,covid_confirmed,38.654,0.8506,0.3858,0.4481,0.5123,0.7157
+TFT + segmentwise attention,covid_death,39.8184,0.8904,0.8377,0.3747,0.4009,0.6332
+TFT + segmentwise attention,covid_recovered,43.5666,0.3272,0.414,0.7665,1.4052,1.1854
+TFT + segmentwise attention,electricity,207.5447,0.987,0.9522,0.0296,0.034,0.1845
+TFT + segmentwise attention,exchange_rate,15.6435,0.9999,0.9745,0.0188,0.001,0.0322
+TFT + segmentwise attention,sales,39.0695,0.8504,0.8549,0.4714,0.4626,0.6801
+TFT + segmentwise attention,stock,52.5141,0.631,0.6768,0.7191,1.2301,1.1091
+TFT + segmentwise attention,surface_temperature,5.5503,0.9891,0.9921,0.1268,0.0308,0.1755
+TFT + series decomposition,african_GDP,31.681,0.9715,0.9419,0.1859,0.0865,0.2942
+TFT + series decomposition,air_traffic,40.4707,0.9009,0.6653,0.5166,0.4024,0.6344
+TFT + series decomposition,Chickenpox,152.8491,0.6228,0.5412,0.4621,0.62,0.7874
+TFT + series decomposition,co2,21.5294,0.9593,0.9613,0.2503,0.2507,0.5007
+TFT + series decomposition,covid_confirmed,46.8152,0.8284,0.2263,0.5442,0.8032,0.8962
+TFT + series decomposition,covid_death,54.2077,0.8691,0.7419,0.5479,0.7543,0.8685
+TFT + series decomposition,covid_recovered,81.1122,-0.0942,0.1422,1.0337,2.0953,1.4475
+TFT + series decomposition,electricity,206.7556,0.9866,0.9556,0.0312,0.0415,0.2037
+TFT + series decomposition,exchange_rate,22.5224,0.9999,0.9262,0.0098,0.0001,0.0129
+TFT + series decomposition,sales,37.5803,0.8329,0.832,0.5062,0.5558,0.7455
+TFT + series decomposition,stock,54.9449,0.638,0.6761,0.6943,1.1483,1.0716
+TFT + series decomposition,surface_temperature,5.398,0.9904,0.9916,0.1339,0.0263,0.1624
+TFT+ segmentwise + series decomposition,african_GDP,29.8688,0.9762,0.9197,0.1675,0.0713,0.2671
+TFT+ segmentwise + series decomposition,air_traffic,37.7429,0.9032,0.7081,0.5365,0.4416,0.6645
+TFT+ segmentwise + series decomposition,Chickenpox,139.4996,0.5958,0.5306,0.463,0.6586,0.8115
+TFT+ segmentwise + series decomposition,co2,17.3254,0.9579,0.9663,0.1893,0.116,0.3406
+TFT+ segmentwise + series decomposition,covid_confirmed,43.5606,0.8126,0.2318,0.5463,0.8347,0.9136
+TFT+ segmentwise + series decomposition,covid_death,44.3646,0.8965,0.8446,0.4266,0.4709,0.6862
+TFT+ segmentwise + series decomposition,covid_recovered,50.8095,0.4624,0.4287,0.8241,1.5061,1.227
+TFT+ segmentwise + series decomposition,electricity,194.6845,0.9866,0.9538,0.0302,0.0385,0.1963
+TFT+ segmentwise + series decomposition,exchange_rate,21.8837,0.9999,0.9147,0.0052,0,0.0056
+TFT+ segmentwise + series decomposition,sales,29.1662,0.8433,0.8521,0.401,0.3548,0.5957
+TFT+ segmentwise + series decomposition,stock,55.9572,0.6412,0.686,0.738,1.2559,1.1206
+TFT+ segmentwise + series decomposition,surface_temperature,6.3239,0.9856,0.9873,0.1399,0.0359,0.1895
+TFT+ segmentwise + series decomposition + component weights,african_GDP,42.7026,0.9644,0.9511,0.3209,0.2669,0.5166
+TFT+ segmentwise + series decomposition + component weights,air_traffic,26.9692,0.854,0.6492,0.4048,0.2973,0.5453
+TFT+ segmentwise + series decomposition + component weights,Chickenpox,206.0816,0.6355,0.5704,0.494,0.6164,0.7851
+TFT+ segmentwise + series decomposition + component weights,co2,20.3149,0.9448,0.9478,0.215,0.1236,0.3516
+TFT+ segmentwise + series decomposition + component weights,covid_confirmed,50.3478,0.8485,0.2251,0.5619,0.8026,0.8959
+TFT+ segmentwise + series decomposition + component weights,covid_death,66.7094,0.9099,0.6957,0.6374,0.8887,0.9427
+TFT+ segmentwise + series decomposition + component weights,covid_recovered,80.1465,0.5337,0.4905,1.0098,1.9022,1.3792
+TFT+ segmentwise + series decomposition + component weights,electricity,200.6595,0.9845,0.9576,0.0303,0.0311,0.1765
+TFT+ segmentwise + series decomposition + component weights,exchange_rate,18.169,0.9999,0.8983,0.014,0.0004,0.0219
+TFT+ segmentwise + series decomposition + component weights,sales,36.2264,0.8494,0.8523,0.4444,0.4348,0.6594
+TFT+ segmentwise + series decomposition + component weights,stock,56.1501,0.5686,0.613,0.7626,1.3538,1.1635
+TFT+ segmentwise + series decomposition + component weights,surface_temperature,8.4104,0.9863,0.9875,0.2027,0.059,0.2429
+TFT+ segmentwise + series decomposition + trend loss,african_GDP,33.2251,0.9716,0.9492,0.2145,0.1188,0.3447
+TFT+ segmentwise + series decomposition + trend loss,air_traffic,31.5405,0.8807,0.7003,0.4026,0.2686,0.5183
+TFT+ segmentwise + series decomposition + trend loss,Chickenpox,148.4537,0.6064,0.4842,0.4711,0.6911,0.8313
+TFT+ segmentwise + series decomposition + trend loss,co2,18.8895,0.9538,0.9591,0.2002,0.1146,0.3385
+TFT+ segmentwise + series decomposition + trend loss,covid_confirmed,46.1038,0.8139,0.1853,0.5497,0.8232,0.9073
+TFT+ segmentwise + series decomposition + trend loss,covid_death,40.1997,0.9067,0.8614,0.3675,0.3593,0.5994
+TFT+ segmentwise + series decomposition + trend loss,covid_recovered,60.8247,0.2415,0.3771,0.8792,1.674,1.2938
+TFT+ segmentwise + series decomposition + trend loss,electricity,196.5106,0.9869,0.956,0.0294,0.0347,0.1864
+TFT+ segmentwise + series decomposition + trend loss,exchange_rate,30.4037,0.9999,0.9002,0.0111,0.0001,0.0134
+TFT+ segmentwise + series decomposition + trend loss,sales,34.8344,0.8408,0.8441,0.4178,0.3735,0.6111
+TFT+ segmentwise + series decomposition + trend loss,stock,54.4445,0.6092,0.6482,0.7009,1.1877,1.0898
+TFT+ segmentwise + series decomposition + trend loss,surface_temperature,5.1958,0.9922,0.9947,0.1236,0.0255,0.1599
+TFT+ segmentwise + series decomposition + trend loss + component weights,african_GDP,36.1261,0.9443,0.9161,0.2481,0.207,0.4549
+TFT+ segmentwise + series decomposition + trend loss + component weights,air_traffic,29.0257,0.8461,0.5281,0.4274,0.3097,0.5565
+TFT+ segmentwise + series decomposition + trend loss + component weights,Chickenpox,190.4116,0.6131,0.5632,0.4912,0.631,0.7943
+TFT+ segmentwise + series decomposition + trend loss + component weights,co2,21.2665,0.9408,0.9534,0.2355,0.196,0.4427
+TFT+ segmentwise + series decomposition + trend loss + component weights,covid_confirmed,55.2823,0.8258,0.2064,0.6013,0.9431,0.9711
+TFT+ segmentwise + series decomposition + trend loss + component weights,covid_death,51.6941,0.8947,0.8513,0.5195,0.6593,0.8119
+TFT+ segmentwise + series decomposition + trend loss + component weights,covid_recovered,68.7877,0.1503,0.3393,0.9431,1.8671,1.3664
+TFT+ segmentwise + series decomposition + trend loss + component weights,electricity,202.9775,0.9861,0.9559,0.0335,0.048,0.2193
+TFT+ segmentwise + series decomposition + trend loss + component weights,exchange_rate,12.7882,0.9999,0.9635,0.0096,0.0002,0.0148
+TFT+ segmentwise + series decomposition + trend loss + component weights,sales,34.5698,0.8462,0.8494,0.4871,0.473,0.6877
+TFT+ segmentwise + series decomposition + trend loss + component weights,stock,57.8847,0.5824,0.6328,0.7599,1.3345,1.1552
+TFT+ segmentwise + series decomposition + trend loss + component weights,surface_temperature,6.866,0.9911,0.9943,0.1614,0.041,0.2026
+TFT+cross_entity_attention,african_GDP,27.17,,,,,
+TFT+cross_entity_attention,air_traffic,20.6802,,,,,
+TFT+cross_entity_attention,co2,19.1188,,,,,
+TFT+cross_entity_attention,covid_confirmed,37.5734,,,,,
+TFT+cross_entity_attention,covid_death,38.3588,,,,,
+TFT+cross_entity_attention,covid_recovered,55.0714,,,,,
+TFT+cross_entity_attention,electricity,219.0118,,,,,
+TFT+cross_entity_attention,exchange_rate,4.806,,,,,
+TFT+cross_entity_attention,sales,36.8208,,,,,
+TFT+cross_entity_attention,stock,55.246,,,,,
+TFT+cross_entity_attention,surface_temperature,9.5884,,,,,
+TFT+cross_entity_attention+TCN_encoder_decoder,african_GDP,27.4298,0.9736,0.9254,0.1587,0.061,0.247
+TFT+cross_entity_attention+TCN_encoder_decoder,air_traffic,24.9945,0.8483,0.7691,0.5151,0.3918,0.6259
+TFT+cross_entity_attention+TCN_encoder_decoder,co2,20.9579,0.9469,0.9566,0.2318,0.1799,0.4242
+TFT+cross_entity_attention+TCN_encoder_decoder,covid_confirmed,38.965,0.8877,0.827,0.3651,0.3724,0.6102
+TFT+cross_entity_attention+TCN_encoder_decoder,covid_death,52.3506,0.2595,0.3719,0.8103,1.5203,1.233
+TFT+cross_entity_attention+TCN_encoder_decoder,covid_recovered,45.3917,0.842,0.2406,0.5109,0.6857,0.8281
+TFT+cross_entity_attention+TCN_encoder_decoder,electricity,212.2623,0.9807,0.937,0.0612,0.1783,0.4223
+TFT+cross_entity_attention+TCN_encoder_decoder,exchange_rate,26.8712,1,0.9044,0.0094,0.0001,0.0111
+TFT+cross_entity_attention+TCN_encoder_decoder,sales,29.9818,0.84,0.841,0.3858,0.3378,0.5812
+TFT+cross_entity_attention+TCN_encoder_decoder,stock,55.582,0.5967,0.6464,0.7342,1.2702,1.127
+TFT+cross_entity_attention+TCN_encoder_decoder,surface_temperature,26.4097,0.844,0.7698,0.5394,0.4307,0.6562
