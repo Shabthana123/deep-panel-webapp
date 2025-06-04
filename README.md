@@ -47,8 +47,8 @@ Built with **React (Vite)** and powered by **Hugging Face APIs** for model infer
 1. **Clone the Repository**:
 
     ```bash
-    git clone https://github.com/your-username/panel-forecasting-app.git
-    cd panel-forecasting-app
+    git clone https://github.com/Shabthana123/deep-panel-webapp.git
+    cd deep-panel-webapp/frontend
     ```
 
 2. **Install Dependencies**:
